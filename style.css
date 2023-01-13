@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+    to bottom right,
+    #2b8a3e,
+    #37b24d,
+    #51cf66,
+    #94d82d,
+    #74b816,
+    #5c940d
+  );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: poppins, arial;
+}
+h1 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.75rem;
+  margin: 1rem;
+}
+strong {
+  font-size: 2rem;
+
+  padding: 1rem;
+}
+.intro {
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.generator {
+  padding: 1rem 2rem;
+  font-family: poppins, arial;
+  font-size: 1.8rem;
+  border: none;
+  background: linear-gradient(to bottom right, #2b8a3e, #5c940d);
+  color: #fff;
+}
+
+.recipe-box {
+  max-width: 100rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #06424d;
+}
+
+.food-img {
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.ingredients li {
+  width: 100%;
+  border: none;
+
+  color: #fff;
+
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 0.4rem;
+}
+.ingredients li:nth-child(odd) {
+  background-color: #2b8a3e;
+  color: #fff;
+}
+.ingredients li:nth-child(even) {
+  background-color: #5c940d;
+  color: #fff;
+}
+.instructions {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
